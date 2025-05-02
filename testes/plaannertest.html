@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner de Estudos</title>
+    <link rel="stylesheet" href="css/plannertest.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo">Mente Afiada</span>
+            <ul class="menu">
+                <li><a>Home</a></li>
+                <li><a>Planner de Estudo</a></li>
+                <li><a>Mapa Mental</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Introdução ao site-->
+        <div class="principal">
+            <section class="hero">
+            <header class="hero-conteudo">
+                <span class="destaque roxo">destaque</span>
+                <h1 class="topo">Mente Afiada</h1>
+                <hr/>
+                <h2 class="hero-subtitulo">O Aprendizado Sem Limites!</h2>
+            </header>
+            <!--esse div é para colocar imagens futuramente-->
+        </div>
+        </section>
+        <section class="descricao">
+            <header class="cabecalho">
+                <span class="destaque roxo">Descrição</span><br>
+                    <h2 class="h2-titulo"><strong>Descubra o Poder da Organização com Nossos Planners de Estudo!</strong></h2><br>
+                    <p class="h2-subtitulo">Se você busca transformar seus estudos em uma jornada mais leve, organizada e eficiente, você está no lugar certo! Nossos planners de estudo foram cuidadosamente projetados para te auxiliar em cada etapa do aprendizado, desde o planejamento das atividades diárias até o acompanhamento do progresso em metas de longo prazo.</p><br>
+                    <p class="h2-subtitulo">Com nossos planners, você terá o controle total da sua rotina de estudos, otimizando seu tempo e maximizando seu potencial. Diga adeus à procrastinação e abrace a produtividade!</p><br>      
+                    <h2 class="h2-titulo">Nossos planners te oferecem:</h2><br>
+                    <p class="h2-subtitulo"><strong>Organização Personalizada:</strong> Crie planos de estudo adaptados às suas necessidades e preferências.</p>
+                    <p class="h2-subtitulo"><strong>Acompanhamento de Metas:</strong> Defina objetivos claros e visualize seu progresso de forma inspiradora.</p>
+                    <p class="h2-subtitulo"><strong>Gerenciamento de Tempo:</strong> Distribua suas tarefas de forma eficiente e otimize seu tempo de estudo.</p>
+                    <p class="h2-subtitulo"><strong>Visão Geral do Aprendizado:</strong>Tenha uma visão clara do seu progresso e identifique áreas que precisam de mais atenção.</p><br>
+            </header>
+        </section>
+        <h2 class="h2-planner">Planner de Estudo</h2> <!-- Título principal da página -->
+        <section>
+                <div class="form-container">
+                    <h2>Adicionar Matéria</h2> <!-- Título da seção de adição de matéria -->
+                    <input type="text" id="subject" placeholder="Nome da Matéria"> <!-- Campo para inserir o nome da matéria -->
+                    <input type="time" id="start-time"> <!-- Campo para selecionar o horário de início -->
+                    <input type="time" id="end-time"> <!-- Campo para selecionar o horário de término -->
+                    <div class="checkbox-group">
+                        <!-- Checkboxes para selecionar os dias da semana -->
+                            <input type="checkbox" id="monday" value="Segunda-feira">
+                            <label for="monday">Segunda-feira</label>
+
+                            <input type="checkbox" id="tuesday" value="Terça-feira">
+                            <label for="tuesday">Terça-feira</label>
+
+                            <input type="checkbox" id="wednesday" value="Quarta-feira">
+                            <label for="wednesday">Quarta-feira</label>
+
+                            <input type="checkbox" id="thursday" value="Quinta-feira">
+                            <label for="thursday">Quinta-feira</label>
+
+                            <input type="checkbox" id="friday" value="Sexta-feira">
+                            <label for="friday">Sexta-feira</label>
+
+                            <input type="checkbox" id="saturday" value="Sábado">
+                            <label for="saturday">Sábado</label>
+                            <input type="checkbox" id="sunday" value="Domingo">
+                            <label for="sunday">Domingo</label>
+                    </div>
+                    <button id="add-button">Adicionar ao Planner</button> <!-- Botão para adicionar a matéria ao planner -->
+                </div>
+                <div class="planner-container">
+                    <h2>Seu Planner</h2> <!-- Título da seção do planner -->
+                    <table id="planner-table">
+                        <thead>
+                            <tr>
+                                <th>Dia</th> <!-- Cabeçalho da coluna para o dia -->
+                                <th>Matéria</th> <!-- Cabeçalho da coluna para a matéria -->
+                                <th>Horário</th> <!-- Cabeçalho da coluna para o horário -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+        </section>
+    </main>
+    <script src="js/plannertest.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
