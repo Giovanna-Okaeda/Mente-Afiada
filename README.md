@@ -1,24 +1,22 @@
-# Mente Afiada
+## Mente Afiada
 
-## Descrição
+### Descrição
 
-**Mente Afiada** é uma empresa especializada no desenvolvimento de soluções digitais voltadas ao aprendizado, com foco na criação de ferramentas eficientes e personalizadas para otimizar a performance individual nos estudos.
+**Mente Afiada** é uma empresa focada no desenvolvimento de tecnologias educacionais para potencializar o aprendizado individual. A proposta é oferecer ferramentas digitais que otimizem o tempo de estudo, organizem rotinas e ajudem o usuário a manter a constância nos estudos.  
+Tecnologias utilizadas: HTML, CSS, JavaScript.
 
-**Tecnologias utilizadas**: HTML, CSS e JavaScript.  
-**Motivação**: Criar soluções educacionais práticas e acessíveis para estudantes que buscam melhorar o foco e o rendimento.
+### Como Executar
 
-## Como Executar
-
-1. Clone o repositório:
+1. Baixe ou clone este repositório:
    ```bash
-   git clone https://github.com/Giovanna-Okaeda/Mente-Afiada
+   git clone https://github.com/Giovanna-Okaeda/Mente-Afiada.git
+   ```
+2. Navegue até a pasta do projeto.
+3. Abra o arquivo `index.html` com um navegador da sua escolha.
 
-2. Navegue até o diretório do projeto:
-  
-3. Abra o arquivo index.html com um navegador da sua escolha.
-4. 
-**Estrutura de Pastas**
+### Estrutura de Pastas
 
+```plaintext
 ├── css/
 │   ├── style.css         # Arquivo principal de estilos
 │   ├── contato.css       # Estilos da página de contato
@@ -41,5 +39,9 @@
 ├── equipe.html           # Página com informações sobre a equipe
 ├── sobre.html            # Página sobre a empresa
 ├── contato.html          # Página de contato
+```
 
+### Contribuidores
+
+- Giovanna Albuquerque Okaeda
 
