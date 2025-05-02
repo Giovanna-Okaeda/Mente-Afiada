@@ -14,30 +14,32 @@
    git clone https://github.com/Giovanna-Okaeda/Mente-Afiada
 
 2. Navegue até o diretório do projeto:
-   ```bash
-   cd Mente-Afiada
+  
+3. Abra o arquivo index.html com um navegador da sua escolha.
+4. 
 **Estrutura de Pastas**
 
 ├── css/
-   ├── style.css        # Arquivo principal de estilos
-   ├──contato.css        # Arquivo de estilos da página contato
-   ├── planner.css        # Arquivo de estilos da página planner de estudos
-   ├── mapamental.css        # Arquivo de estilos da página mapa mental
-   ├── sobre.css        # Arquivo de estilos da página sobre
-   ├── equipe.css        # Arquivo de estilos da página equipe
-   └── responsivo.css   # (Opcional) Arquivo separado para estilos responsivos
+│   ├── style.css         # Arquivo principal de estilos
+│   ├── contato.css       # Estilos da página de contato
+│   ├── planner.css       # Estilos da página de planner de estudos
+│   ├── mapamental.css    # Estilos da página de mapa mental
+│   ├── sobre.css         # Estilos da página sobre
+│   ├── equipe.css        # Estilos da página da equipe
+│   └── responsivo.css    # Estilos responsivos
 ├── js/
-   ├── api.js           # Scripts para requisições da API
-   │   ├── menu.js          # Scripts para menu mobile
-   └── main.js          # Scripts gerais do projeto
+│   ├── api.js            # Scripts para requisições da API
+│   ├── menu.js           # Scripts para menu mobile
+│   └── main.js           # Scripts gerais do projeto
 ├── img/
-      ├── logo./           # Logo principal do site
-      ├── banner./           # banner principal do site
-      └── produtos/        # (Subpasta) Imagens organizadas por categoria (ex: produtos)
-├── index.html           # Página inicial (Home)
-├── produtos.html        # Página com lista de produtos
-├── galeria.html         # Página com galeria de imagens
-├── equipe.html          # Página com informações sobre a equipe
-├── sobre.html           # Página sobre a empresa
-├── contato.html         # Página de contato
+│   ├── logo/             # Logo principal do site
+│   ├── banner/           # Banner principal do site
+│   └── produtos/         # (Subpasta) Imagens organizadas por categoria
+├── index.html            # Página inicial (Home)
+├── planner.html          # Página com Planner de Estudos Personalizados
+├── mapamental.html       # Página com Mapas Mentais 
+├── equipe.html           # Página com informações sobre a equipe
+├── sobre.html            # Página sobre a empresa
+├── contato.html          # Página de contato
+
 
