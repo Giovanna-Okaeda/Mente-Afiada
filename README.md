@@ -11,4 +11,4 @@
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/usuario/mente-afiada.git
+   git clone https://github.com/Giovanna-Okaeda/Mente-Afiada
